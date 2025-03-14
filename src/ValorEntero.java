@@ -1,11 +1,12 @@
 public class ValorEntero {
-    int ve;
-
+    private int ve;
+    public static final int veCte= 0;
     public ValorEntero() {
         this.ve = 0;
     }
     public ValorEntero(int ve) {  //Los constructores son los primeros métodos sobrecargados
         this.ve = ve;
+        // veCte = 2; No es posible modificar el valor de una variable final (constante)
     }
 
     public int getVe() {
@@ -35,6 +36,13 @@ public class ValorEntero {
     }
 
     //Método que devuelva una REFERENCIA (tipo ValorEntero) al objeto ValorEntero con mayor valor de ve
+    public ValorEntero compareVe(ValorEntero o){
+        if (this.getVe() > o.getVe()){
+            return this; //referencia al objeto que recibe la llamada
+        }else{
+            return o;
+        }
+    }
 
 
 }
