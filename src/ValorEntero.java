@@ -35,6 +35,12 @@ public class ValorEntero {
         this.setVe(this.getVe()+v1+v2);
     }
 
+    public void sumarVe(int v1, double v2){ //sobrecargar un método consiste en crear un nuevo método con el
+        //mismo nombre y diferente lista de parámetros
+        this.setVe(this.getVe()+ v1+ (int)v2);
+    }
+
+
     //Método que devuelva una REFERENCIA (tipo ValorEntero) al objeto ValorEntero con mayor valor de ve
     public ValorEntero compareVe(ValorEntero o){
         if (this.getVe() > o.getVe()){

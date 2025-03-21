@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76432de1-802c-480d-825a-d267e4ad769a" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/Documento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Imagen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Publicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mostrable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Documento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Imagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Imagen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Publicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Publicacion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ValorEntero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValorEntero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -33,12 +35,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
